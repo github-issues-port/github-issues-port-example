@@ -1,5 +1,6 @@
-PATH
-  remote: vendor/gems/githubissues-port
+GIT
+  remote: git://github.com/github-issues-port/githubissues-port.git
+  revision: 4ed80634cdde290ce1d3137f7bb15188983859c7
   specs:
     githubissues-port (0.3)
       axlsx (~> 2.0.1)
@@ -182,7 +183,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   erb2haml
   foundation-rails
-  githubissues-port (= 0.3)!
+  githubissues-port!
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
