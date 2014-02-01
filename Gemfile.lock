@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/github-issues-port/githubissues-port.git
-  revision: 4ed80634cdde290ce1d3137f7bb15188983859c7
-  specs:
-    githubissues-port (0.3)
-      axlsx (~> 2.0.1)
-      creek
-      faraday (= 0.8.0)
-      github_api
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,6 +61,11 @@ GEM
       multi_json (>= 1.7.5, < 2.0)
       nokogiri (~> 1.6.0)
       oauth2
+    githubissues-port (0.3.1)
+      axlsx (~> 2.0.1)
+      creek
+      faraday (= 0.8.0)
+      github_api
     haml (4.1.0.beta.1)
       tilt
     haml-rails (0.5.3)
@@ -183,7 +178,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   erb2haml
   foundation-rails
-  githubissues-port!
+  githubissues-port
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
