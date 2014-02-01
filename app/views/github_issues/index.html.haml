@@ -1,0 +1,17 @@
+%h1
+  Import issues
+
+= form_tag import_github_issues_url do 
+  = label_tag 'Github Username'
+  = text_field_tag 'github_issue[username]'
+
+  = label_tag 'Github Password'
+  = password_field_tag 'github_issue[password]'
+
+  = label_tag 'Github Repo owner'
+  = text_field_tag 'github_issue[owner]'
+
+  = label_tag 'Github Repo name'
+  = text_field_tag 'github_issue[repo_name]'
+
+  = submit_tag 'Import',class: :button
